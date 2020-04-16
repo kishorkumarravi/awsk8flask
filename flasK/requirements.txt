@@ -1,0 +1,3 @@
+flask
+line_profiler
+marshmallow==2.20.1
