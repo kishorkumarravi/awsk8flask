@@ -1,0 +1,8 @@
+version: '3'
+services:
+  k8s_web:
+    image: aws_k8s
+    command: ["run"]
+    working_dir: /code/k8s
+    ports:
+      - "5000:5000" 
