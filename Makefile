@@ -1,4 +1,4 @@
-BINARY_NAME=aws_k8s
+BINARY_NAME=docker_flask
 Docker_Repo_DevOps=localhost
 
 init:
