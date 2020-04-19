@@ -1,4 +1,4 @@
-# awsk8flask
+# dockerflask
 Python flask application with container orchestration
 
 Setup Virtual Environment
