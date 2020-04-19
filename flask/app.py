@@ -13,7 +13,7 @@ APP = Flask(__name__)
 from restcontroller.servicecontroller import service_url
 
 APP.register_blueprint(
-    service_url, url_prefix="/aws/k8")
+    service_url, url_prefix="/docker/flask")
 
 if __name__ == '__main__':
     APP.run(host='0.0.0.0', debug=False, threaded=True)

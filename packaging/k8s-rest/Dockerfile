@@ -10,7 +10,6 @@ RUN apt-get install  -y zip > /dev/null
 RUN apt-get install  -y libaio1 > /dev/null
 RUN apt-get update > /dev/null
 RUN apt-get install  -y alien > /dev/null
-RUN apt-get install -y awscli
 WORKDIR /
 RUN mkdir /code
 WORKDIR /code
